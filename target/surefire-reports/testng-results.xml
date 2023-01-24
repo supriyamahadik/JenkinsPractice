@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-25T01:02:14 IST" name="Suite" finished-at="2023-01-25T01:02:27 IST" duration-ms="12552">
+  <suite started-at="2023-01-25T02:02:11 IST" name="Suite" finished-at="2023-01-25T02:02:23 IST" duration-ms="12219">
     <groups>
       <group name="loginpage">
-        <method signature="LoginPageTest.login()[pri:0, instance:TastLayer.LoginPageTest@6ff29830]" name="login" class="TastLayer.LoginPageTest"/>
+        <method signature="LoginPageTest.login()[pri:0, instance:TastLayer.LoginPageTest@548e6d58]" name="login" class="TastLayer.LoginPageTest"/>
       </group> <!-- loginpage -->
       <group name="homepage">
-        <method signature="HomePageTest.logo()[pri:1, instance:TastLayer.HomePageTest@76ed1b7c]" name="logo" class="TastLayer.HomePageTest"/>
-        <method signature="HomePageTest.tille()[pri:2, instance:TastLayer.HomePageTest@76ed1b7c]" name="tille" class="TastLayer.HomePageTest"/>
-        <method signature="HomePageTest.url()[pri:3, instance:TastLayer.HomePageTest@76ed1b7c]" name="url" class="TastLayer.HomePageTest"/>
+        <method signature="HomePageTest.logo()[pri:1, instance:TastLayer.HomePageTest@7c1e2a9e]" name="logo" class="TastLayer.HomePageTest"/>
+        <method signature="HomePageTest.tille()[pri:2, instance:TastLayer.HomePageTest@7c1e2a9e]" name="tille" class="TastLayer.HomePageTest"/>
+        <method signature="HomePageTest.url()[pri:3, instance:TastLayer.HomePageTest@7c1e2a9e]" name="url" class="TastLayer.HomePageTest"/>
       </group> <!-- homepage -->
     </groups>
-    <test started-at="2023-01-25T01:02:14 IST" name="Test" finished-at="2023-01-25T01:02:27 IST" duration-ms="12552">
+    <test started-at="2023-01-25T02:02:11 IST" name="Test" finished-at="2023-01-25T02:02:23 IST" duration-ms="12219">
       <class name="TastLayer.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TastLayer.LoginPageTest@6ff29830]" started-at="2023-01-25T01:02:15 IST" name="setup" finished-at="2023-01-25T01:02:22 IST" duration-ms="7169" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TastLayer.LoginPageTest@548e6d58]" started-at="2023-01-25T02:02:11 IST" name="setup" finished-at="2023-01-25T02:02:18 IST" duration-ms="6788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:TastLayer.LoginPageTest@6ff29830]" started-at="2023-01-25T01:02:22 IST" name="login" finished-at="2023-01-25T01:02:22 IST" duration-ms="401" status="PASS">
+        <test-method signature="login()[pri:0, instance:TastLayer.LoginPageTest@548e6d58]" started-at="2023-01-25T02:02:18 IST" name="login" finished-at="2023-01-25T02:02:18 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TastLayer.LoginPageTest@6ff29830]" started-at="2023-01-25T01:02:23 IST" name="teardown" finished-at="2023-01-25T01:02:27 IST" duration-ms="4122" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TastLayer.LoginPageTest@548e6d58]" started-at="2023-01-25T02:02:19 IST" name="teardown" finished-at="2023-01-25T02:02:23 IST" duration-ms="4135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TastLayer.LoginPageTest -->
       <class name="TastLayer.HomePageTest">
-        <test-method signature="logo()[pri:1, instance:TastLayer.HomePageTest@76ed1b7c]" started-at="2023-01-25T01:02:22 IST" name="logo" depends-on-groups="loginpage" finished-at="2023-01-25T01:02:22 IST" duration-ms="5" status="PASS">
+        <test-method signature="logo()[pri:1, instance:TastLayer.HomePageTest@7c1e2a9e]" started-at="2023-01-25T02:02:18 IST" name="logo" depends-on-groups="loginpage" finished-at="2023-01-25T02:02:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method signature="tille()[pri:2, instance:TastLayer.HomePageTest@76ed1b7c]" started-at="2023-01-25T01:02:22 IST" name="tille" depends-on-groups="loginpage" finished-at="2023-01-25T01:02:22 IST" duration-ms="11" status="PASS">
+        <test-method signature="tille()[pri:2, instance:TastLayer.HomePageTest@7c1e2a9e]" started-at="2023-01-25T02:02:19 IST" name="tille" depends-on-groups="loginpage" finished-at="2023-01-25T02:02:19 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tille -->
-        <test-method signature="url()[pri:3, instance:TastLayer.HomePageTest@76ed1b7c]" started-at="2023-01-25T01:02:23 IST" name="url" depends-on-groups="loginpage" finished-at="2023-01-25T01:02:23 IST" duration-ms="10" status="PASS">
+        <test-method signature="url()[pri:3, instance:TastLayer.HomePageTest@7c1e2a9e]" started-at="2023-01-25T02:02:19 IST" name="url" depends-on-groups="loginpage" finished-at="2023-01-25T02:02:19 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- url -->
